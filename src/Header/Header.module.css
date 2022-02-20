@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+nav {
+    position: relative;
+    width: 100vw;
+    height: 7.5vh;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(33,62,122,1) 48%, rgba(108,110,113,1) 65%, rgba(0,0,0,1) 100%);
+}
+
+nav ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li h2 {
+    font-family: 'Orbitron', cursive, sans-serif;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: 0.5s text-shadow;
+    text-align: center;  
+    color: rgba(255, 255, 255, 1);  
+    background: rgba(125, 125, 125, 0.15);
+    padding: 2%;
+    border-radius: 10px 10px;
+}
+
+nav ul li h2:hover {
+    text-shadow: 1px 1px 4px white;
+}
+
+.headerItem {
+    opacity: 0;
+}

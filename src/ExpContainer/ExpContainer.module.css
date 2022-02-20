@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.pageContainer {
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(33,62,122,1) 48%, rgba(0,0,0,1) 100%);
+    font-family: 'Orbitron', cursive, sans-serif;
+    box-shadow: 4px 4px 8px black;
+}
+
+.listContainer {
+    height: 100%;
+    width: 50%;
+    max-width: 50%;
+}
+
+.listContainer h2 {
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+    text-decoration: underline;
+}
+
+.listContainer h3 {
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    /* background: rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 8px black;
+    border-radius: 15px 15px;  */
+    width: 80%;
+    margin-left: 10%;
+    padding: 5%;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+}
+
+.listContainer ul {
+    height: 80%;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 3px 8px black;
+    border-radius: 30px 30px;
+    margin-top: 2.5%;
+}

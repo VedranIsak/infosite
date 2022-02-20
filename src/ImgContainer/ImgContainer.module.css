@@ -1,0 +1,37 @@
+.pageContainer {
+    overflow: auto;
+    height: 46.25vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+    box-shadow: 2px 2px 4px black;
+    background: pink;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(33,62,122,1) 48%, rgba(0,0,0,1) 100%);
+}
+
+.subDivOne {
+    background-image: url('../images/side.png');
+    background-size: 100% 100%;
+    /* background: rgb(56,11,11);
+    background: linear-gradient(90deg, rgba(56,11,11,1) 0%, rgba(226,226,226,1) 100%); */
+    width: 25%;
+    min-height: 100%;
+}
+
+.subDivTwo {
+    background: red;
+    width: 50%;
+    height: 100%;
+}
+
+.subDivThree {
+    background-image: url('../images/sideinv.png');
+    background-size: 100% 100%;
+    /* background: rgb(56,11,11);
+    background: linear-gradient(90deg, rgba(226,226,226,1) 0%, rgba(56,11,11,1) 100%); */
+    width: 25%;
+    min-height: 100%;
+}
