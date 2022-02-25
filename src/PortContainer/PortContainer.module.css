@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+
+.fullPageContainer {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(33,62,122,1) 48%, rgba(0,0,0,1) 100%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.fullPageContainer table {
+    height: 70%;
+    width: 50%;
+    border: 4px solid white;
+    border-radius: 15px 15px;
+    overflow: hidden;
+}
+
+.fullPageContainer table tbody tr {
+    background: rgba(255, 255, 255, 0.075);
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+}
+
+.fullPageContainer table tbody tr h3 {
+    cursor: pointer;
+    color: white;
+    font-family: 'Montserrat Alternates', cursive, sans-serif;
+    padding-top: 7.5px;
+    height: 100%;
+    text-align: center;
+    width: 35%;
+}
+
+.fullPageContainer table tbody tr div {
+    height: 100%;
+    width: 65%;
+}
+
+.fullPageContainer table tbody tr div p {
+    font-family: 'Montserrat Alternates', cursive, sans-serif;
+    color: white;
+    padding: 15px;
+}
+
+.fullPageContainer .skillsShowCaseContainer {
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+    box-shadow: 8px 8px 4px black;
+    overflow: hidden;
+    border: 3px solid white;
+    background: rgba(20, 20, 20, 0.4);
+}
+
+
+.fullPageContainer .skillsShowCaseContainer .halfCaseContainer {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.halfCaseContainer div {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.halfCaseContainer a {
+    color: white;
+    font-family: 'Montserrat Alternates';
+    font-size: 1.25rem;
+}
+
+.linkHelpContainer {
+    top: 15%;
+    right: 5%;
+    position: absolute;
+    height: 10%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.linkHelpContainer h2, .linkHelpContainer h3 {
+    color: white;
+    font-family: 'Montserrat Alternates', cursive, sans-serif;
+}
+

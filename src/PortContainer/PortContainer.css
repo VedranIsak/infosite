@@ -1,0 +1,69 @@
+#angular-img {
+    background-image: url('../images/angularLogo.png');
+    background-size: 100% 100%;
+}
+#net-image {
+    background-image: url('../images/cSharp.png');
+    background-size: 100% 100%;
+}
+#wpf-image {
+    background-image: url('../images/wpf.png');
+    background-size: 100% 100%;
+    color: black;
+}
+#react-image {
+    background-image: url('../images/reactLogo.png');
+    background-size: 100% 100%;
+}
+
+#first-skill {
+    border-bottom: 25px solid rgba(200, 200, 200, 0.1);
+    border-right: 25px solid rgba(200, 200, 200, 0.1);
+    transition: border-bottom 0.5s, border-right 0.5s;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+#first-skill:hover {
+    border-bottom: 2.5px solid rgba(200, 200, 200, 0.1);
+    border-right: 2.5px solid rgba(200, 200, 200, 0.1);
+}
+
+#second-skill {
+    border-bottom: 25px solid rgba(200, 200, 200, 0.1);
+    border-left: 25px solid rgba(200, 200, 200, 0.1);
+    transition: border-bottom 0.5s, border-left 0.5s;
+    padding-right: 25px;
+    padding-top: 25px;
+}
+
+#second-skill:hover {
+    border-bottom: 2.5px solid rgba(200, 200, 200, 0.1);
+    border-left: 2.5px solid rgba(200, 200, 200, 0.1);
+}
+
+#third-skill {
+    border-top: 25px solid rgba(200, 200, 200, 0.1);
+    border-right: 25px solid rgba(200, 200, 200, 0.1);
+    transition: border-top 0.5s, border-right 0.5s;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+#third-skill:hover {
+    border-top: 2.5px solid rgba(200, 200, 200, 0.1);
+    border-right: 2.5px solid rgba(200, 200, 200, 0.1);
+}
+
+#fourth-skill {
+    border-top: 25px solid rgba(200, 200, 200, 0.1);
+    border-left: 25px solid rgba(200, 200, 200, 0.1);
+    transition: border-top 0.5s, border-left 0.5s;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+#fourth-skill:hover {
+    border-top: 2.5px solid rgba(200, 200, 200, 0.1);
+    border-left: 2.5px solid rgba(200, 200, 200, 0.1);
+}

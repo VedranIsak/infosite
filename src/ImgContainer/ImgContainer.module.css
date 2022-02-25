@@ -2,6 +2,7 @@
     overflow: auto;
     height: 46.25vh;
     width: 100vw;
+    max-width: 100vw;
     display: flex;
     justify-content: center;
     align-items: stretch;
@@ -15,23 +16,29 @@
 .subDivOne {
     background-image: url('../images/side.png');
     background-size: 100% 100%;
-    /* background: rgb(56,11,11);
-    background: linear-gradient(90deg, rgba(56,11,11,1) 0%, rgba(226,226,226,1) 100%); */
-    width: 25%;
+    width: 35%;
     min-height: 100%;
+    transition: opacity 0.5s;
+}
+
+.subDivOne:hover {
+    opacity: 0;
 }
 
 .subDivTwo {
     background: red;
-    width: 50%;
+    width: 30%;
     height: 100%;
 }
 
 .subDivThree {
     background-image: url('../images/sideinv.png');
     background-size: 100% 100%;
-    /* background: rgb(56,11,11);
-    background: linear-gradient(90deg, rgba(226,226,226,1) 0%, rgba(56,11,11,1) 100%); */
-    width: 25%;
+    width: 35%;
     min-height: 100%;
+    transition: opacity 0.5s;
+}
+
+.subDivThree:hover {
+    opacity: 0;
 }

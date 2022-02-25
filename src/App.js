@@ -2,6 +2,8 @@ import './App.css';
 import ExpContainer from './ExpContainer/ExpContainer';
 import Header from './Header/Header';
 import ImgContainer from './ImgContainer/ImgContainer';
+import SkillsContainer from './SkillsContainer/SkillsContainer';
+import PortContainer from './PortContainer/PortContainer';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <ImgContainer />
       <ImgContainer />
       <ExpContainer />
+      <SkillsContainer />
+      <PortContainer />
     </>
   );
 }
