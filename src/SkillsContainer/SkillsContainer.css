@@ -1,0 +1,108 @@
+
+  #skill-img-one {
+    background-image: url('../images/cSharp.png');
+    background-size: 100% 175%;
+  }
+
+  #skill-img-two {
+    background-image: url('../images/wpf.png');
+  }
+
+  #skill-img-three {
+    background-image: url('../images/sqlServer.jpg');
+  }
+
+  #skill-img-four {
+    background-image: url('../images/html.jpg');
+  }
+
+  #skill-img-five {
+    background-image: url('../images/reactLogo.png');
+  }
+
+  #skill-img-six {
+    background-image: url('../images/git.png');
+  }
+
+@media only screen and (max-width: 1300px) {
+    div.switchImg {
+        background: none;
+        box-shadow: none;
+    }
+
+    div.img-pos-circle {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    #slideSwitcherContainer {
+        width: 80%;
+    }
+
+    #skill-img-one,  #skill-img-two,  #skill-img-three,  
+    #skill-img-four,  #skill-img-five,  #skill-img-six {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;    
+    }  
+}
+
+@media only screen and (max-width: 1000px) {
+    p.skill-text-container {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #slideSwitcherContainer {
+        width: 100%;
+    }
+
+    #skillsHeaderContainer {
+        font-size: 1.1rem;
+    }
+
+    h2.skill-text-header {
+        margin-top: 7.5%;
+        margin-bottom: 5%;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    div.switchImg h5 {
+        font-size: 0.6rem;
+    }
+
+    #skill-img-one,  #skill-img-two,  #skill-img-three,  
+    #skill-img-four,  #skill-img-five,  #skill-img-six {
+        display: none;
+    }  
+
+    #slideSwitcherContainer {
+        height: 15%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    #skillsHeaderContainer {
+        display: none;
+    }
+
+    div.switchImg {
+        height: 100%;
+        width: 100%;
+    }
+
+    div.switchImg h5 {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    p.skill-text-container {
+        font-size: 0.65rem;
+    }
+}

@@ -1,4 +1,4 @@
-#angular-img {
+/* #angular-img {
     background-image: url('../images/angularLogo.png');
     background-size: 100% 100%;
 }
@@ -15,7 +15,7 @@
     background-image: url('../images/reactLogo.png');
     background-size: 100% 100%;
 }
-
+*/
 #first-skill {
     border-bottom: 25px solid rgba(200, 200, 200, 0.1);
     border-right: 25px solid rgba(200, 200, 200, 0.1);
@@ -66,4 +66,54 @@
 #fourth-skill:hover {
     border-top: 2.5px solid rgba(200, 200, 200, 0.1);
     border-left: 2.5px solid rgba(200, 200, 200, 0.1);
+} 
+
+@media only screen and (max-width: 1450px) {
+    #exp-more-header {
+        font-size: 1rem;
+    }
+    #exp-more-text {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    #skills-container {
+        display: none;
+    }
+
+    #port-table {
+        width: 90%;
+        height: 90%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #port-table tbody tr td h3 {
+        font-size: 1rem;
+    }
+
+    #port-table tbody tr td div p {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #port-table tbody tr td h3 {
+        font-size: 0.8rem;
+    }
+
+    #port-table tbody tr td div p {
+        font-size: 0.6rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    #port-table tbody tr td h3 {
+        font-size: 0.6rem;
+    }
+
+    #port-table tbody tr td div p {
+        font-size: 0.5rem;
+    }
 }

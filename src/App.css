@@ -40,28 +40,3 @@ a, a:hover, a:focus, a:active {
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(100, 100, 100);
   }
-
-  #skill-img-one {
-    background-image: url('./images/cSharp.png');
-    background-size: 100% 175%;
-  }
-
-  #skill-img-two {
-    background-image: url('./images/wpf.png');
-  }
-
-  #skill-img-three {
-    background-image: url('./images/sqlServer.jpg');
-  }
-
-  #skill-img-four {
-    background-image: url('./images/html.jpg');
-  }
-
-  #skill-img-five {
-    background-image: url('./images/reactLogo.png');
-  }
-
-  #skill-img-six {
-    background-image: url('./images/git.png');
-  }

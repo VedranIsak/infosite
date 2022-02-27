@@ -1,0 +1,41 @@
+@media only screen and (max-width: 1400px) {
+    #subDivOne {
+        width: 30%;
+    }
+
+    #subDivTwo {
+        width: 40%;
+    }
+
+    #subDivThree {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #subDivOne {
+        width: 25%;
+    }
+
+    #subDivTwo {
+        width: 50%;
+    }
+
+    #subDivThree {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #subDivOne {
+        display: none;
+    }
+
+    #subDivTwo {
+        width: 100%;
+    }
+
+    #subDivThree {
+        display: none;
+    }
+}

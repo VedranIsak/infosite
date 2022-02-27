@@ -1,6 +1,7 @@
 import react, { Component } from "react";
 import reactDom from "react-dom";
 import styles from './Header.module.css'
+import './Header.css';
 
 export default class Header extends Component {
     constructor(props) {

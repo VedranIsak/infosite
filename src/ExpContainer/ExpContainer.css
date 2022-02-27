@@ -1,0 +1,44 @@
+@media only screen and (max-width: 1000px) {
+    h3.exp-text {
+        font-size: 0.8rem;
+    }
+
+    h2.exp-header-text {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    ul.listContainerList {
+        background: none;
+        box-shadow: none;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #exp-container {
+        flex-direction: column;
+    }
+
+    #list-container-1, #list-container-2 {
+        height: 50%;
+        width: 100%;
+    }
+
+    h3.exp-text {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    h2.exp-header-text {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    h3.exp-text {
+        font-size: 0.6rem;
+    }
+}
