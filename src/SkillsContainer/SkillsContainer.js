@@ -77,28 +77,33 @@ export default class SkillsContainer extends Component {
                         <div id="skill-img-three" className={styles.imgContainer}></div>
                         <div className={styles.textContainer}>
                             <h2 className="skill-text-header">SQL Server</h2>
-                            <p className="skill-text-container">My work with SQL Server</p>
+                            <p className="skill-text-container">My work with SQL Server revolves around two areas. The first is editing existing tables in the company database, to ensure that they stay up to date with new models. The second is
+                             editing raw SQL queries that are used in several areas of our applications. I also monitor some SQL Server Agent jobs, that we use for API calls and the like.</p>
                         </div>
                     </div>
                     <div className={styles.contentContainer}>
                         <div id="skill-img-four" className={styles.imgContainer}></div>
                         <div className={styles.textContainer}>
                             <h2 className="skill-text-header">HTML, CSS, Javascript & jQuery</h2>
-                            <p className="skill-text-container"></p>
+                            <p className="skill-text-container">Since I like frontend development the most, these languages are naturally close to my heart.
+                            However, I sadly do not spend a large amount of time at my job working with these. I most often, when working with the frontend, spend 
+                            my time fixing bugs related to jQuery Ajax-calls. I also implement some new gui features on the company website, however this does not happen a lot.</p>
                         </div>
                     </div>
                     <div className={styles.contentContainer}>
                         <div id="skill-img-five" className={styles.imgContainer}></div>
                         <div className={styles.textContainer}>
                             <h2 className="skill-text-header">React</h2>
-                            <p className="skill-text-container"></p>
+                            <p className="skill-text-container">My work with React has exclusively been work with private projects, such as this very website. I like React, how simple it is and how easy it is to use.
+                            Therefore I've decided to learn as much React as I can on my spare time. And this project is one of the steps I've taken to achieve that aim.</p>
                         </div>
                     </div>
                     <div className={styles.contentContainer}>
                         <div id="skill-img-six" className={styles.imgContainer}></div>
                         <div className={styles.textContainer}>
                             <h2 className="skill-text-header">Git, GitHub & Azure Devops</h2>
-                            <p className="skill-text-container"></p>
+                            <p className="skill-text-container">I use Git on a daily basis, both at work and at home. I mainly just focus on simple branch management, keeping a master branch and using diverting branches for fixed and additions to the code. 
+                            To then merge the diverted branches into master when the time is right, after a approved pull request of course. I use GitHub on my private projects, while I use Azure Devops at work to coordinate my work with my colleagues.</p>
                         </div>
                     </div>
                     </div>

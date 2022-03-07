@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
 
   #skill-img-one {
     background-image: url('../images/cSharp.png');
@@ -22,6 +23,10 @@
 
   #skill-img-six {
     background-image: url('../images/git.png');
+  }
+
+  #skillsHeaderContainer {
+    font-family: 'Montserrat Alternates', cursive, sans-serif;
   }
 
 @media only screen and (max-width: 1300px) {

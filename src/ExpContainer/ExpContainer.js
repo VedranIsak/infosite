@@ -33,6 +33,7 @@ export default class ExpContainer extends Component {
                         <li><h3 className="exp-text">In 2021 I obtained my bachelor's degree and started my career as a software engineer with a .NET developer job shortly thereafter.</h3></li>
                     </ul>
                 </div>
+                {this.props.children}
             </div>
         );
     }

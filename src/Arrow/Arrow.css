@@ -1,0 +1,35 @@
+#alone-arrow {
+    position: fixed;
+    left: 0vw;
+    top: calc(50vh - 20px);
+    cursor: pointer;
+    min-width: 30px;
+    max-width: 30px;
+    min-height: 30px;
+    max-height: 30px;
+    border: solid whitesmoke;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);  
+    transition: border-width 1s;
+    z-index: 5;
+  }
+
+  #side-bar-arrow {
+    min-width: 30px;
+    max-width: 30px;
+    min-height: 30px;
+    max-height: 30px;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    #alone-arrow {
+      display: none;
+    }
+
+    #side-bar-arrow {
+      display: none;
+    }
+  }

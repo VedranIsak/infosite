@@ -1,0 +1,38 @@
+#react-website-container {
+    background-image: url('../images/galleryImg/reactSite.png');
+    background-size: 100% 100%;
+}
+
+#dotnet-website-container {
+    background-image: url('../images/galleryImg/dotNetSite.png');
+    background-size: 100% 100%;
+}
+
+#chat-app-container {
+    background-image: url('../images/galleryImg/chatApp.png');
+    background-size: 100% 100%;
+}
+
+#angular-website-container {
+    background-image: url('../images/galleryImg/angularSite.png');
+    background-size: 100% 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+    #gallery-container {
+        height: 70%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #gallery-container {
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #gallery-container {
+        height: 50%;
+        width: 95%;
+    }
+}
