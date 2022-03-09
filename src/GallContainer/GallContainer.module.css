@@ -41,5 +41,8 @@
 
 .textContainer h4 {
     color: white;
+    text-align: center;
     font-family: 'Montserrat Alternates', cursive, sans-serif;
+    width: 70%;
+    height: auto;
 }

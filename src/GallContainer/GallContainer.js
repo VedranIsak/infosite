@@ -41,7 +41,6 @@ export default class GallContainer extends Component {
     }
 
     slideDown(elementId) {
-        console.log('in slideDown');
         let element = document.getElementById(elementId);
         element.style.top = '-100%';
 
@@ -55,7 +54,6 @@ export default class GallContainer extends Component {
     }
 
     slideUp(elementId) {
-        console.log('in slideUp');
         let element = document.getElementById(elementId);
         element.style.top = '0%';
 
