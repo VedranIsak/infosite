@@ -1,8 +1,19 @@
-@media only screen and (max-width: 1000px) {
-    h3.exp-text {
-        font-size: 0.8rem;
-    }
+#list-container-1 ul {
+    background-image: url('../images/expImg/expImg.jpg');
+    background-size: 50% 120%;
+}
 
+#list-container-2 ul {
+    background-image: url('../images/expImg/eduImg.jpg');
+}
+
+@media only screen and (max-width: 1500px) {
+    h3.exp-text {
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
     h2.exp-header-text {
         font-size: 1rem;
     }
@@ -13,6 +24,10 @@
         background: none;
         box-shadow: none;
         height: 100%;
+    }
+
+    h2.exp-header-text {
+        display: none;
     }
 }
 

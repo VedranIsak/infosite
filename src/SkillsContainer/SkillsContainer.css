@@ -38,6 +38,14 @@
     div.img-pos-circle {
         display: none;
     }
+
+    p.skill-text-container {
+        font-size: 0.75rem;
+    }
+
+    h2.skill-text-header {
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -55,7 +63,7 @@
 
 @media only screen and (max-width: 1000px) {
     p.skill-text-container {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 }
 

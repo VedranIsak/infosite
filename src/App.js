@@ -10,9 +10,9 @@ import React from 'react';
 
   const firstParagraphs = [
   `During the fall of 2020, during my first real venture into web development, 
-  I made a small Angular website for Region Östergötland during my internship there. I did not finish the site in time,
-  but I managed to deliver a functioning prototype that was then forked by my employeer. The website is aimed for healthcare workers for assessing requirements for patient movement within
-  the hospitals and healthcare facilites in which they are located.`, 
+  I made a small Angular website for Region Östergötland. I managed to create a functioning website that was then forked by Region Östergötland, where I was completing my internship.
+  The website is aimed for healthcare workers whom need to assess the requirements needed for moving patients within
+  the hospitals and healthcare facilites that Region Östergötland operates.`, 
   `During my initial stint as a .NET developer I started developing a website aimed at explaining the Yugoslav wars during my free time. The site was made with ASP.NET Core MVC and took a couple of 
   to develop and host. The database architecture was constructed with SQL Server and the website is hosted through....`, 
   `During my last year as a college student, I developed a multithreaded Chat Application with WPF MVVM together with a coursemate. The application
@@ -49,8 +49,8 @@ function App() {
     <>
       <Arrow />
       <Header />
-      <ImgContainer />
-      <ImgContainer />
+      <ImgContainer id="textContainer" explainerText="Welcome to Vedran Isak's portfolio site =)"/>
+      <ImgContainer id="imgContainer" explainerText=""/>
       <ExpContainer />
       <SkillsContainer />
       <PortContainer pTexts={firstParagraphs} hTexts={firstHeaders} imgIds={firstImgIds} hrefs={firstHrefs} aTexts={firstAnchors} circleHeader='Want to learn more about these technologies?' />

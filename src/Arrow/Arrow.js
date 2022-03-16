@@ -29,21 +29,21 @@ export default class Arrow extends Component {
             sideBar.style.opacity = "0";
             aloneArrow.style.display = "block";
             aloneArrow.style.opacity = "0";
-            this.fade(aloneArrow, 1);
+            this.fade(aloneArrow);
         }
         else {
             sideBar.style.display = "block";
             sideBar.style.opacity = "0";
             aloneArrow.style.display = "none";
             aloneArrow.style.opacity = "0";
-            this.fade(sideBar, 1);
+            this.fade(sideBar);
         }
     }
 
-    fade(element, endOpacity) {
+    fade(element) {
         let int = setInterval(() => {
             element.style.opacity = parseFloat(element.style.opacity) + 0.1;
-            if(parseFloat(element.style.opacity) === endOpacity) {
+            if(parseFloat(element.style.opacity) === 1) {
                 clearInterval(int);
             }
         }, 100);

@@ -11,8 +11,8 @@ export default class ExpContainer extends Component {
     render() {
         return(
             <div id="exp-container" className={styles.pageContainer}>
+                <h2 className="exp-header-text">Experience & Education</h2>
                 <div id="list-container-1" className={styles.listContainer}>
-                    <h2 className="exp-header-text">Experience</h2>
                     <ul className="listContainerList">
                         <li><h3 className="exp-text">Before starting my education, I had only worked common jobs such as a short stint as a health care worker 
                             and several years, on and off (while going to school), as a warehouse worker in my hometown.</h3></li>
@@ -24,7 +24,6 @@ export default class ExpContainer extends Component {
                     </ul>
                 </div>
                 <div id="list-container-2" className={styles.listContainer}>
-                    <h2 className="exp-header-text">Education</h2>
                     <ul className="listContainerList">
                         <li><h3 className="exp-text">From 2018 to 2021 I studied an IT-programme at Linkoping University called Systemvetenskap (Information Systems) 
                             with a special focus on Systemutveckling (Software engineering).</h3></li>

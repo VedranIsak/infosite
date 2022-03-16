@@ -24,7 +24,17 @@
     max-height: 30px;
   }
 
+  @media only screen and (max-width: 1600px) {
+    #side-bar-container {
+      width: 11vw;
+    }
+  }
+
   @media only screen and (max-width: 1200px) {
+    #side-bar-container {
+      display: none;
+    }
+
     #alone-arrow {
       display: none;
     }

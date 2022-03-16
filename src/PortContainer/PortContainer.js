@@ -26,7 +26,7 @@ function Table({rowAmount, pTexts, hTexts, imgIds}) {
         let div = createElement('div', { 'style': { 'height': '100%', 'width': '100%' } }, p);
         let h3 = createElement('h3', { 'id': imgIds[i], 'style': { 'color': 'white', 'fontFamily': 'Montserrat Alternates, cursive, sans-serif', 'paddingTop': '15px', 'textAlign': 'center', 'width': '35%' } }, hTexts[i]);
         let td = createElement('td', { 'style': { 'height': '100%', 'width': '100%', 'display': 'flex', 'flexDirection': 'column', 'justifyContent': 'center', 'alignTtems': 'center', 'border': '3px solid white' } }, [h3, div])
-        let tr = createElement('tr', { style: { 'background': 'rgba(255, 255, 255, 0.075)', 'height': '25%' } }, td);
+        let tr = createElement('tr', { 'key': `${i}`, 'style': { 'background': 'rgba(255, 255, 255, 0.075)', 'height': '25%' } }, td);
         rows.push(tr);
     }
 

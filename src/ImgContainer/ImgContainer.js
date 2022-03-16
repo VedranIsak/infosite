@@ -12,7 +12,9 @@ export default class ImgContainer extends Component {
         return(
             <div className={s.pageContainer}>
                 <div id="subDivOne" className={s.subDivOne}></div>
-                <div id="subDivTwo" className={s.subDivTwo}></div>
+                <div id={this.props.id} className={s.subDivTwo}>
+                    <h1>{this.props.explainerText}</h1>
+                </div>
                 <div id="subDivThree" className={s.subDivThree}></div>
             </div>
         )}
