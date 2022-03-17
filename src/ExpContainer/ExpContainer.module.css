@@ -41,8 +41,6 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    /* background: rgba(0, 0, 0, 0.35); */
     box-shadow: 3px 3px 8px black;
     margin-top: 2.5%;
-    list-style-type: circle;
 }
