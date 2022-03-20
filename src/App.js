@@ -49,7 +49,7 @@ function App() {
     <>
       <Arrow />
       <Header />
-      <ImgContainer id="textContainer" explainerText="Welcome to Vedran Isak's portfolio site =)"/>
+      <ImgContainer id="textContainer" explainerText="Welcome to my portfolio site!"/>
       <ImgContainer id="imgContainer" explainerText=""/>
       <ExpContainer />
       <SkillsContainer />

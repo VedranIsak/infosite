@@ -6,8 +6,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background: rgb(0,0,0);
     background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(33,62,122,1) 48%, rgba(0,0,0,1) 100%);
+}
+
+.fullPageContainer h4 {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat Alternates', cursive, sans-serif;
+    margin-bottom: 1%;
 }
 
 .galleryContainer {

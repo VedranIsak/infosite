@@ -57,3 +57,11 @@
         font-size: 0.6rem;
     }
 }
+
+/*Landscape mode*/
+
+@media only screen and (max-width: 1000px) and (orientation: landscape) {
+    h3.exp-text {
+        font-size: 0.5rem;
+    }
+}

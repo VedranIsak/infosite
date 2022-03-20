@@ -99,3 +99,44 @@
         font-size: 0.5rem;
     }
 }
+
+/*Landscape mode*/
+
+@media only screen and (max-width: 1000px) and (orientation: landscape) {
+    .port-table tbody tr td h3 {
+        font-size: 0.6rem;
+    }
+
+    .port-table tbody tr td div p {
+        font-size: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 750px) and (orientation: landscape) {
+    table.port-table {
+        width: 100%;
+    }   
+
+    table.port-table tbody tr td {
+        border: 0px solid white;
+    }
+
+    .port-table tbody tr td h3 {
+        font-size: 0.4rem;
+    }
+
+    .port-table tbody tr td div p {
+        font-size: 0.4rem;
+    }
+}
+
+@media only screen and (max-width: 675px) and (orientation: landscape) {
+    .port-table tbody tr td h3 {
+        font-size: 0.3rem;
+    }
+
+    .port-table tbody tr td div p {
+        font-size: 0.3rem;
+    }
+}
+

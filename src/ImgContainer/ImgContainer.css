@@ -10,6 +10,7 @@
     color: white;
     text-align: center;
     font-family: 'Montserrat Alternates', cursive, sans-serif;
+    padding: 15px;
 }
 
 #imgContainer {
@@ -17,6 +18,9 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     box-shadow: 4px 4px 8px black;
+    border-radius: 7.5px;
+    width: min(350px, 50vw);
+    height: min(350px, 50vw);
 }
 
 @media only screen and (max-width: 1400px) {
@@ -24,7 +28,7 @@
         width: 30%;
     }
 
-    #textContainer, #imgContainer {
+    #textContainer {
         width: 40%;
     }
 
@@ -38,7 +42,7 @@
         width: 25%;
     }
 
-    #textContainer, #imgContainer {
+    #textContainer {
         width: 50%;
     }
 
@@ -52,11 +56,23 @@
         display: none;
     }
 
-    #textContainer, #imgContainer {
+    #textContainer {
         width: 100%;
     }
 
     #subDivThree {
+        display: none;
+    }
+}
+
+/*Landscape mode*/
+@media only screen and (max-width: 1000px) and (orientation: landscape) {
+    #imgContainer {
+        height: 125px;
+        width: 125px;
+    }
+
+    #subDivOne, #subDivThree {
         display: none;
     }
 }

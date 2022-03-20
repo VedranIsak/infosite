@@ -22,7 +22,7 @@ export default class Header extends Component {
             <ul>
                 <li><h2 onClick={() => { this.traverseSite("1"); }}><a>Portfolio</a></h2></li>
                 <li><h2 onClick={() => { this.traverseSite("2"); }}><a>Skills</a></h2></li>
-                <li><h2 onClick={() => { this.traverseSite("3"); }}><a>Experience and Education</a></h2></li>
+                <li><h2 onClick={() => { this.traverseSite("3"); }}><a>Exp & Edu</a></h2></li>
                 <li><h2 onClick={() => { this.traverseSite("5"); }}>My Work</h2></li>
                 <li><h2><a href="https://github.com/VedranIsak" target="_blank">Github</a></h2></li>
             </ul>
