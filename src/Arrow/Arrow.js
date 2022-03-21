@@ -46,7 +46,7 @@ export default class Arrow extends Component {
             if(parseFloat(element.style.opacity) === 1) {
                 clearInterval(int);
             }
-        }, 100);
+        }, 25);
     }
 
     traverseSite(traverseHeight) {

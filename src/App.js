@@ -9,16 +9,15 @@ import GallContainer from './GallContainer/GallContainer';
 import React from 'react';
 
   const firstParagraphs = [
-  `During the fall of 2020, during my first real venture into web development, 
-  I made a small Angular website for Region Östergötland. I managed to create a functioning website that was then forked by Region Östergötland, where I was completing my internship.
-  The website is aimed for healthcare workers whom need to assess the requirements needed for moving patients within
-  the hospitals and healthcare facilites that Region Östergötland operates.`, 
-  `During my initial stint as a .NET developer I started developing a website aimed at explaining the Yugoslav wars during my free time. The site was made with ASP.NET Core MVC and took a couple of 
-  to develop and host. The database architecture was constructed with SQL Server and the website is hosted through....`, 
-  `During my last year as a college student, I developed a multithreaded Chat Application with WPF MVVM together with a coursemate. The application
-  is as mentioned multithreaded and can be used by two users that share the same network. We divided the work so that I mainly worked on the frontend while 
-  my coursemate worked with the thread architecture.`, 
-  `The last project I've been working at is this very site. Written with React, where I learned the framework while developing the site.`];
+  `During the fall of 2020 I made a small Angular website for Region Östergötland. I created a functioning website that
+  was targeted to healthcare workers who needed to assess the requirements needed for moving patients within
+  healthcare facilites.`, 
+  `During my initial stint as a .NET developer I started developing a website aimed at explaining the Yugoslav wars during my leisure time. 
+  The site was made with ASP.NET Core MVC, jQuery and SQL Server and took a couple of weeks to fully develop.`, 
+  `During my last year as a college student, I developed a multithreaded Chat Application with WPF MVVM. The application
+  is as mentioned multithreaded and fully functioning, with storage of old chats being stored in local JSON-files.`, 
+  `The last project I've been working on (as of this writing) is this very site. 
+  The site is written with React and I've been learning the framework while developing the site.`];
   const firstHeaders = ['Angular Website', 'ASP.NET Core MVC Website', 'WPF MVVM Chat Application', 'React Website'];
   const firstImgIds = ['angular-img', 'net-image', 'wpf-image', 'react-image'];
   const firstHrefs = ['https://angular.io/', 'https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0', 
@@ -26,17 +25,15 @@ import React from 'react';
   'https://reactjs.org/'];
   const firstAnchors = ['Angular', 'ASP.NET Core MVC', 'WPF MVVM', 'SQL Server'];
 
-  const secParapraphs = [`During my education I learned quite a bit about datastructures commonly used within the programming world. 
-  Starting with learning the Big O notation I then progressed to learning about sorting algorithms such as quicksort, bubblesort and heapsort. 
-  I finished off my studies within this field by learning about common data structures used for storage, such as linked lists, binary search trees and AVL trees.`, 
-  `I also spent time learning databases, where we specifically studied relational databases with a focus on SQL. We also spent quite a bit of time learning about ER modeling, 
-  so called entity-relationship models.`, 
-  `I also spent quite a bit of time during my studies on learning the object-oriented programming paradigm. 
-  In my coursework we took use of good old Java for achieving this. We learned about classes, objects, instantiation and of course the four fundamental pillars:
-  abstraction, encapsulation, inheritance and polymorphism.`,
+  const secParapraphs = [`During my education I learned quite a bit about commonly used datastructures. 
+  Starting with learning the Big O notation I then progressed into learning about sorting algorithms. 
+  I finished off my studies within this field by learning about some more complex data structures like binary search trees and AVL trees.`, 
+  `I also spent time learning about databases, where we specifically studied relational databases with a focus on SQL Server.
+   We also spent quite a bit of time learning about ER modeling (entity-relationship models).`, 
+  `During my education I also spent quite a bit of time learning the object-oriented programming paradigm. 
+  In my coursework we took use of good old Java for achieving this.`,
   `I also spent a surprising amount of time learning about agile work and agile principles, doing this actually in several courses. I learned about, 
-  and simulated using, daily scrums, sprints etc. By simulating I mean that we created case scenarios in my class, were we then divided ourselves into small groups
-  and tried to solve these case scenarios using agile methods.`];
+  and simulated using, daily scrums, sprints etc.`];
   const secHeaders =  ['Datastructures', 'ER modeling', 'OOP', 'Agile work'];
   const secImgIds = ['data-struc-img', 'er-img', 'oop-img', 'agile-img'];
   const secHrefs = ['https://www.geeksforgeeks.org/data-structures/', 'https://www.geeksforgeeks.org/introduction-of-er-model/', 

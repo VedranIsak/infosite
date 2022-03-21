@@ -16,7 +16,7 @@
 .subDivOne {
     background-image: url('../images/side.png');
     background-size: 100% 100%;
-    width: 37.5%;
+    width: 40%;
     min-height: 100%;
     transition: opacity 0.5s;
 }
@@ -26,13 +26,13 @@
 }
 
 .subDivTwo {
-    width: 25%;
+    width: 20%;
 }
 
 .subDivThree {
     background-image: url('../images/sideinv.png');
     background-size: 100% 100%;
-    width: 37.5%;
+    width: 40%;
     min-height: 100%;
     transition: opacity 0.5s;
 }

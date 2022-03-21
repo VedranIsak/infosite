@@ -19,8 +19,8 @@
     background-repeat: no-repeat;
     box-shadow: 4px 4px 8px black;
     border-radius: 7.5px;
-    width: min(350px, 50vw);
-    height: min(350px, 50vw);
+    width: min(350px, 20vw);
+    height: min(350px, 20vw);
 }
 
 @media only screen and (max-width: 1400px) {
@@ -62,6 +62,11 @@
 
     #subDivThree {
         display: none;
+    }
+
+    #imgContainer {
+        height: 180px;
+        width: 180px;
     }
 }
 
