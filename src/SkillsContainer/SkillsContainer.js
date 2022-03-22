@@ -31,7 +31,7 @@ export default class SkillsContainer extends Component {
 
     render() {
         return(
-            <div className={styles.pageContainer}>
+            <div id="skills-container" className={styles.pageContainer}>
                 <div id="slideSwitcherContainer" className={styles.slideSwitcherContainer}>
                     <div className="switchImg" onClick={() => { this.switchImage("ASP.NET Core MVC"); }}><h5>ASP.NET Core MVC</h5></div>
                     <div className="switchImg" onClick={() => { this.switchImage("WPF"); }}><h5>WPF</h5></div>

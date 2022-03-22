@@ -85,7 +85,7 @@ export default class GallContainer extends Component {
 
     render() {
         return (
-        <div className={styles.fullPageContainer}>
+        <div id="my-work-container" className={styles.fullPageContainer}>
             <h4 id="gallery-help-header">Try pressing on the images =)</h4>
             <div id="gallery-container" className={styles.galleryContainer}>
                 <div id="react-website-container" className={styles.imgContainer} onClick={() => { this.slideIn("react-website-text"); }}>

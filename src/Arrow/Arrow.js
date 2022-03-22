@@ -50,10 +50,14 @@ export default class Arrow extends Component {
     }
 
     traverseSite(traverseHeight) {
-        window.scrollTo({
-            top: traverseHeight * this.height,
-            behavior: 'smooth'
-        });
+        if(traverseHeight === "1")
+            document.getElementById("port-container").scrollIntoView({"behavior": "smooth"});
+        else if(traverseHeight === "2") 
+            document.getElementById("skills-container").scrollIntoView({"behavior": "smooth"});
+        else if(traverseHeight === "3")
+            document.getElementById("exp-container").scrollIntoView({"behavior": "smooth"});
+        else if(traverseHeight === "4")
+            document.getElementById("my-work-container").scrollIntoView({"behavior": "smooth"});
     }
 
     render() {
@@ -67,7 +71,7 @@ export default class Arrow extends Component {
                             <div id="side-bar-arrow" className={styles.arrow} onClick={() => { this.sideBarToggle(); }} ></div>
                         </div>
                         <div><h2 onClick={() => { this.traverseSite("3"); }}>Exp & Edu</h2></div>
-                        <div><h2 onClick={() => { this.traverseSite("5"); }}>My work</h2></div>
+                        <div><h2 onClick={() => { this.traverseSite("4"); }}>My work</h2></div>
                     </div>
                 </div>
                 <div className={styles.arrow} id="alone-arrow" onClick={() => { this.sideBarToggle(); }}></div>

@@ -50,8 +50,8 @@ function App() {
       <ImgContainer id="imgContainer" explainerText=""/>
       <ExpContainer />
       <SkillsContainer />
-      <PortContainer pTexts={firstParagraphs} hTexts={firstHeaders} imgIds={firstImgIds} hrefs={firstHrefs} aTexts={firstAnchors} circleHeader='Want to learn more about these technologies?' />
-      <PortContainer pTexts={secParapraphs} hTexts={secHeaders} imgIds={secImgIds} hrefs={secHrefs} aTexts={secAnchors} circleHeader='Want to learn more about these subjects?' />
+      <PortContainer id="port-container-1" pTexts={firstParagraphs} hTexts={firstHeaders} imgIds={firstImgIds} hrefs={firstHrefs} aTexts={firstAnchors} circleHeader='Want to learn more about these technologies?' />
+      <PortContainer id="port-container-2" pTexts={secParapraphs} hTexts={secHeaders} imgIds={secImgIds} hrefs={secHrefs} aTexts={secAnchors} circleHeader='Want to learn more about these subjects?' />
       <GallContainer />
     </>
   );
