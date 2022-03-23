@@ -8,6 +8,8 @@ body {
   width: 100vw;
   max-width: 100vw;
   overflow-x: hidden;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(159,180,255,1) 100%);
 }
 
 #root {

@@ -1,10 +1,10 @@
 import { clear } from "@testing-library/user-event/dist/clear";
 import react, { Component } from "react";
 import reactDom from "react-dom";
-import './Arrow.css';
-import styles from './Arrow.module.css'
+import './SideBarContainer.css';
+import styles from './SideBarContainer.module.css'
 
-export default class Arrow extends Component {
+export default class SideBarContainer extends Component {
     constructor(props) {
         super(props);
 

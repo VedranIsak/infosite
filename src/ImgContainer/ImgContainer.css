@@ -7,7 +7,7 @@
 }
 
 #textContainer h1 {
-    color: white;
+    color: black;
     text-align: center;
     font-family: 'Montserrat Alternates', cursive, sans-serif;
     padding: 15px;
@@ -18,9 +18,16 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     box-shadow: 4px 4px 8px black;
-    border-radius: 7.5px;
-    width: min(350px, 20vw);
-    height: min(350px, 20vw);
+    border-radius: 12.5px;
+    width: min(450px, 40vw);
+    height: min(450px, 40vw);
+    max-height: 95%;
+    overflow: hidden;
+    opacity: .9;
+}
+
+#isNotVisible {
+    background: none;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -63,18 +70,20 @@
     #subDivThree {
         display: none;
     }
+}
 
+@media only screen and (max-width: 450px) {
     #imgContainer {
-        height: 180px;
-        width: 180px;
+        height: 250px;
+        width: 250px;
     }
 }
 
 /*Landscape mode*/
-@media only screen and (max-width: 1000px) and (orientation: landscape) {
+@media only screen and (max-width: 1000px) and (max-height: 500px) and (orientation: landscape) {
     #imgContainer {
-        height: 125px;
-        width: 125px;
+        height: 110px;
+        width: 110px;
     }
 
     #subDivOne, #subDivThree {

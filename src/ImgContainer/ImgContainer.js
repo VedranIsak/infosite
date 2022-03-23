@@ -11,11 +11,11 @@ export default class ImgContainer extends Component {
     render() {
         return(
             <div className={s.pageContainer}>
-                <div id="subDivOne" className={s.subDivOne}></div>
+                <div id={this.props.subIdOne} className={s.subDivOne}></div>
                 <div id={this.props.id} className={s.subDivTwo}>
                     <h1>{this.props.explainerText}</h1>
                 </div>
-                <div id="subDivThree" className={s.subDivThree}></div>
+                <div id={this.props.subIdThree} className={s.subDivThree}></div>
             </div>
         )}
 }

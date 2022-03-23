@@ -1,17 +1,17 @@
 @media only screen and (max-width: 850px) {
-    ul li h2 {
-        font-size: 1rem;
+    nav ul li h2 {
+        font-size: 0.8rem;
     }
 }
 
 @media only screen and (max-width: 650px) {
-    ul li h2 {
+    nav ul li h2 {
         font-size: 0.75rem;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    ul li h2 {
+    nav ul li h2 {
         font-size: 0.6rem;
     }
 }

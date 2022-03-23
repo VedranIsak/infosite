@@ -8,14 +8,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: rgb(0,0,0);
-    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(33,62,122,1) 48%, rgba(0,0,0,1) 100%);
     font-family: 'Montserrat Alternates', cursive, sans-serif;
 }
 
 .pageContainer h2 {
     text-align: center;
-    color: white;
+    color: black;
     text-decoration: underline;
 }
 
@@ -44,4 +42,15 @@
     box-shadow: 3px 3px 8px black;
     margin-top: 2.5%;
     list-style-type: none;
+    border-radius: 12.5px;
+}
+
+.listContainer ul:first-of-type {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.listContainer ul:last-of-type {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
 }

@@ -4,7 +4,7 @@ import Header from './Header/Header';
 import ImgContainer from './ImgContainer/ImgContainer';
 import SkillsContainer from './SkillsContainer/SkillsContainer';
 import PortContainer from './PortContainer/PortContainer';
-import Arrow from './Arrow/Arrow';
+import SideBarContainer from './SideBarContainer/SideBarContainer';
 import GallContainer from './GallContainer/GallContainer';
 import React from 'react';
 
@@ -44,10 +44,10 @@ function App() {
 
   return (
     <>
-      <Arrow />
+      <SideBarContainer />
       <Header />
-      <ImgContainer id="textContainer" explainerText="Welcome to my portfolio site!"/>
-      <ImgContainer id="imgContainer" explainerText=""/>
+      <ImgContainer id="textContainer" explainerText="Welcome to my portfolio site!" subIdOne="subDivOne" subIdThree="subDivThree"/>
+      <ImgContainer id="imgContainer" explainerText="" subIdOne="isNotVisible" subIdThree="isNotVisible" />
       <ExpContainer />
       <SkillsContainer />
       <PortContainer id="port-container-1" pTexts={firstParagraphs} hTexts={firstHeaders} imgIds={firstImgIds} hrefs={firstHrefs} aTexts={firstAnchors} circleHeader='Want to learn more about these technologies?' />
