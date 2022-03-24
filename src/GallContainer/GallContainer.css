@@ -34,14 +34,14 @@
 
 @media only screen and (max-width: 550px) {
     #gallery-container {
-        /* height: 50%; */
         width: 95%;
     }
 }
 
-@media only screen and (max-width: 1000px) and (orientation: landscape) {
+@media only screen and (max-width: 1000px) and (max-height: 600px) and (orientation: landscape) {
     #gallery-container {
-        display: none;
+        width: 40%;
+        height: 85%;
     }
 
     #gallery-help-header {
