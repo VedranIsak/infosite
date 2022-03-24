@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/infosite/static/css/main.1e903786.css",
+    "main.js": "/infosite/static/js/main.a7daa45b.js",
+    "static/media/dotNetSite.png": "/infosite/static/media/dotNetSite.6ccb2bb7fc7168144cb0.png",
+    "static/media/reactSite.png": "/infosite/static/media/reactSite.30afc100c3605acf68f5.png",
+    "static/media/html.jpg": "/infosite/static/media/html.f29495c2a8fa1b44ee13.jpg",
+    "static/media/sqlServer.jpg": "/infosite/static/media/sqlServer.04be663e3b21977a972d.jpg",
+    "static/media/expImg.jpg": "/infosite/static/media/expImg.96f12997cc4f09cadee3.jpg",
+    "static/media/angularSite.png": "/infosite/static/media/angularSite.db9c3ffcd75bee2070b4.png",
+    "static/media/wpf.png": "/infosite/static/media/wpf.9f90b1a319412726269b.png",
+    "static/media/chatApp.png": "/infosite/static/media/chatApp.2f6c784a49eb3fcdf39c.png",
+    "static/media/eduImg.jpg": "/infosite/static/media/eduImg.a102adad49bda6893458.jpg",
+    "static/media/git.png": "/infosite/static/media/git.4c64e00445dd3b8e40e9.png",
+    "static/media/side.png": "/infosite/static/media/side.e1449fa7f3a3d8ec891f.png",
+    "static/media/sideinv.png": "/infosite/static/media/sideinv.8b9a499a8afaf334c97f.png",
+    "static/media/vedran_1.jpg": "/infosite/static/media/vedran_1.bf804226d6e2e967af34.jpg",
+    "static/media/cSharp.png": "/infosite/static/media/cSharp.cb3828e540a5ec08545f.png",
+    "static/media/reactLogo.png": "/infosite/static/media/reactLogo.ef20e673b9282f8f30fd.png",
+    "index.html": "/infosite/index.html",
+    "main.1e903786.css.map": "/infosite/static/css/main.1e903786.css.map",
+    "main.a7daa45b.js.map": "/infosite/static/js/main.a7daa45b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e903786.css",
+    "static/js/main.a7daa45b.js"
+  ]
+}
