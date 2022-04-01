@@ -21,15 +21,6 @@ export default class Header extends Component {
     }
 
     render() {
-
-
-
-
-
-
-
-
-        
         return (
         <nav id="header" style={styles}>
             <ul>

@@ -17,7 +17,7 @@
 }
 
 .galleryContainer {
-    width: 80%;
+    width: 90%;
     height: 90%;
     display: grid;
     grid-template-rows: repeat(2, 1fr);

@@ -10,8 +10,8 @@
 }
 
 .slideSwitcherContainer {
-    height: 5%;
-    width: 80%;
+    height: 10%;
+    width: 70%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -51,8 +51,8 @@
 
 .semiPageContainer {
     position: relative;
-    height: 85%;
-    width: 80%;
+    height: 70%;
+    width: 70%;
     margin-right: 10%;
     margin-left: 10%;
     border-radius: 12.5px 12.5px;
@@ -90,9 +90,9 @@
 }
 
 .textContainer {
-    margin-top: 2%;
-    margin-bottom: 1%;
-    height: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 90%;
     width: 75%;
 }
 

@@ -24,7 +24,7 @@ function Table({rowAmount, pTexts, hTexts, imgIds}) {
     for(let i = 0; i < rowAmount; i++) {
         let p = createElement('p', { 'key': `p-${i}`, 'style': { 'fontFamily': 'Montserrat Alternates, cursive, sans-serif', 'color': 'black', 'padding': '15px' } }, pTexts[i]);
         let div = createElement('div', { 'key': `div-${i}`, 'style': { 'height': '100%', 'width': '100%' } }, p);
-        let h3 = createElement('h3', {  'key': `h3-${i}`, 'id': imgIds[i], 'style': { 'color': 'black', 'fontFamily': 'Montserrat Alternates, cursive, sans-serif', 'paddingTop': '15px', 'textAlign': 'center', 'width': '35%' } }, hTexts[i]);
+        let h3 = createElement('h3', {  'key': `h3-${i}`, 'id': imgIds[i], 'style': { 'color': 'black', 'fontFamily': 'Montserrat Alternates, cursive, sans-serif', 'paddingTop': '5px', 'textAlign': 'center', 'width': '100%' } }, hTexts[i]);
         let td = createElement('td', { 'key': `td-${i}`, 'style': { 'height': '100%', 'width': '100%', 'display': 'flex', 'flexDirection': 'column', 'justifyContent': 'center', 'alignTtems': 'center' } }, [h3, div])
         let tr = createElement('tr', { 'key': `tr-${i}`, 'style': { 'background': 'rgba(255, 255, 255, 0.075)', 'height': '25%' } }, td);
         rows.push(tr);

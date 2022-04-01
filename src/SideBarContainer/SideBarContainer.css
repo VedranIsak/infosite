@@ -7,7 +7,7 @@
     max-width: 30px;
     min-height: 30px;
     max-height: 30px;
-    border: solid whitesmoke;
+    border: solid black;
     border-width: 0 4px 4px 0;
     display: inline-block;
     padding: 3px;
@@ -22,6 +22,7 @@
     max-width: 30px;
     min-height: 30px;
     max-height: 30px;
+    border-color: white;
   }
 
   @media only screen and (max-width: 1600px) {

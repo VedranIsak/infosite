@@ -23,6 +23,7 @@
 .fullPageContainer table tbody tr {
     background: rgba(255, 255, 255, 0.075);
     height: 25%;
+    width: 100%;
 }
 
 .fullPageContainer table tbody tr td {
@@ -35,11 +36,12 @@
 }
 
 .fullPageContainer table tbody tr td h3 {
+    display: block;
     color: white;
     font-family: 'Montserrat Alternates', cursive, sans-serif;
     padding-top: 15px;
     text-align: center;
-    width: 35%;
+    width: 100%;
 }
 
 .fullPageContainer table tbody tr td div {

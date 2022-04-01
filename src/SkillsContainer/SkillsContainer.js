@@ -33,7 +33,7 @@ export default class SkillsContainer extends Component {
         return(
             <div id="skills-container" className={styles.pageContainer}>
                 <div id="slideSwitcherContainer" className={styles.slideSwitcherContainer}>
-                    <div className="switchImg" onClick={() => { this.switchImage("ASP.NET Core MVC"); }}><h5>ASP.NET Core MVC</h5></div>
+                    <div className="switchImg" onClick={() => { this.switchImage("ASP.NET Core MVC"); }}><h5>ASP.NET Core</h5></div>
                     <div className="switchImg" onClick={() => { this.switchImage("WPF"); }}><h5>WPF</h5></div>
                     <div className="switchImg" onClick={() => { this.switchImage("SQL Server"); }}><h5>SQL Server</h5></div>
                     <div className="switchImg" onClick={() => { this.switchImage("Frontend"); }}><h5>Frontend</h5></div>
@@ -43,16 +43,14 @@ export default class SkillsContainer extends Component {
                 <div id="semiPageContainer" className={styles.semiPageContainer}>
                     <div id="slide-container" className={styles.slideContainer}>
                     <div className={styles.contentContainer}>
-                        <div id="skill-img-one" className={styles.imgContainer}></div>
                         <div className={styles.textContainer}>
-                            <h2 className="skill-text-header">ASP.NET Core MVC</h2>
+                            <h2 className="skill-text-header">ASP.NET Core</h2>
                             <p className="skill-text-container">My professional work with <strong>ASP.NET Core MVC</strong> mainly revolves around managing the database communication between the companies' database and the backend.
                                 This entails mostly managing queries, both hardcoded queries and <strong>Entity Framework</strong>. When it comes my work in my leisure time I often build ASP.NET Core MVC Projects from scratch
                                 where the frontend is what I lay most of my focus on. Although I do also, from time to time, hook up the backend to a local database.</p>
                         </div>
                     </div>
                     <div className={styles.contentContainer}>
-                        <div id="skill-img-two" className={styles.imgContainer}></div>
                         <div className={styles.textContainer}>
                             <h2 className="skill-text-header">WPF</h2>
                             <p className="skill-text-container">Apart from working with ASP.NET Core MVC I also spend quite a bit of time working with, and maintaining, several in-house applications written with WPF.
@@ -61,7 +59,6 @@ export default class SkillsContainer extends Component {
                         </div>
                     </div>
                     <div className={styles.contentContainer}>
-                        <div id="skill-img-three" className={styles.imgContainer}></div>
                         <div className={styles.textContainer}>
                             <h2 className="skill-text-header">SQL Server</h2>
                             <p className="skill-text-container">My work with SQL Server consists of mainly two fields. The first is editing existing tables in the company database, to ensure that they stay up to date. The second is
@@ -69,7 +66,6 @@ export default class SkillsContainer extends Component {
                         </div>
                     </div>
                     <div className={styles.contentContainer}>
-                        <div id="skill-img-four" className={styles.imgContainer}></div>
                         <div className={styles.textContainer}>
                             <h2 className="skill-text-header">HTML, CSS, Javascript & jQuery</h2>
                             <p className="skill-text-container">Since I like frontend development the most, these languages are naturally close to my heart.
@@ -78,7 +74,6 @@ export default class SkillsContainer extends Component {
                         </div>
                     </div>
                     <div className={styles.contentContainer}>
-                        <div id="skill-img-five" className={styles.imgContainer}></div>
                         <div className={styles.textContainer}>
                             <h2 className="skill-text-header">React</h2>
                             <p className="skill-text-container">My work with React has exclusively been within my leisure time, with private projects, such as this very website. 
@@ -88,7 +83,6 @@ export default class SkillsContainer extends Component {
                         </div>
                     </div>
                     <div className={styles.contentContainer}>
-                        <div id="skill-img-six" className={styles.imgContainer}></div>
                         <div className={styles.textContainer}>
                             <h2 className="skill-text-header">Git, GitHub & Azure Devops</h2>
                             <p className="skill-text-container">I use Git on a daily basis, both at work and at home. I mainly just focus on simple branch management, keeping a master branch and using diverting branches for fixes and additions to the codebase. 

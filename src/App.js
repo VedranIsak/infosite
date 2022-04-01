@@ -46,8 +46,7 @@ function App() {
     <>
       <SideBarContainer />
       <Header />
-      <ImgContainer id="textContainer" explainerText="Welcome to my portfolio site!" subIdOne="subDivOne" subIdThree="subDivThree"/>
-      <ImgContainer id="imgContainer" explainerText="" subIdOne="isNotVisible" subIdThree="isNotVisible" />
+      <ImgContainer />
       <ExpContainer />
       <SkillsContainer />
       <PortContainer id="port-container-1" pTexts={firstParagraphs} hTexts={firstHeaders} imgIds={firstImgIds} hrefs={firstHrefs} aTexts={firstAnchors} circleHeader='Want to learn more about these technologies?' />

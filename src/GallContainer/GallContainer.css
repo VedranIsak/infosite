@@ -40,8 +40,11 @@
 
 @media only screen and (max-width: 1000px) and (max-height: 600px) and (orientation: landscape) {
     #gallery-container {
-        width: 40%;
+        width: 70%;
         height: 85%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
 
     #gallery-help-header {

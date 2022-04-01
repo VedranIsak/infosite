@@ -51,12 +51,12 @@
     max-height: 40px;
     max-width: 40px;
     min-width: 40px;
-    border: solid whitesmoke;
+    border: solid black;
     border-width: 0 4px 4px 0;
     display: inline-block;
     padding: 3px;
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);  
     transition: height 0.5s, width 0.5s;
-    margin-left: 20px;
+    margin-left: 5px;
   }

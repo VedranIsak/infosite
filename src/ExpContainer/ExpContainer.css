@@ -13,7 +13,7 @@
 
 @media only screen and (max-width: 1500px) {
     h3.exp-text {
-        font-size: 0.75rem;
+        font-size: 1rem;
     }
 }
 
@@ -51,7 +51,6 @@
     h3.exp-text {
         background: none;
         color: black;
-        text-shadow: 1px 1px 6px black;
     }
 }
 
@@ -66,7 +65,7 @@
     }
 
     h3.exp-text {
-        font-size: 0.7rem;
+        text-align: left;
     }
 }
 
@@ -74,19 +73,24 @@
     h2.exp-header-text {
         display: none;
     }
+
+    h3.exp-text {
+        font-size: 0.85rem;
+        text-align: left;
+    }
 }
 
 @media only screen and (max-width: 350px) {
     h3.exp-text {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
 }
 
-/*Landscape mode*/
-
+/*landscape mode*/
 @media only screen and (max-width: 1000px) and (max-height: 600px) and (orientation: landscape) {
     h3.exp-text {
-        font-size: 0.4rem;
+        font-size: 0.7rem;
+        text-align: left;
     }
 
     h2.exp-header-text {
@@ -95,5 +99,22 @@
 
     #list-container-1, #list-container-2 {
         height: 45%;
+    }
+}
+
+@media only screen and (max-width: 750px) and (max-height: 600px) and (orientation: landscape) {
+    h3.exp-text {
+        font-size: 0.6rem;
+    }
+}
+
+/*tab vertical mode*/
+@media only screen and (min-width: 600px) and (min-height: 800px) {
+    h3.exp-text {
+        font-size: 1.25rem;
+    }
+
+    h2.exp-header-text {
+        font-size: 2rem;
     }
 }

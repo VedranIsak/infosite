@@ -1,17 +1,17 @@
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1000px) {
     nav ul li h2 {
-        font-size: 0.8rem;
+        background: none;
     }
 }
 
 @media only screen and (max-width: 650px) {
-    nav ul li h2 {
-        font-size: 0.75rem;
+    #header {
+        display: none;
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1000px) and (max-height: 600px) and (orientation: landscape) {
     nav ul li h2 {
-        font-size: 0.6rem;
+        font-size: .75rem;
     }
 }
