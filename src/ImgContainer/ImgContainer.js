@@ -28,7 +28,9 @@ export default class ImgContainer extends Component {
     }
 
     triggerLinkedinClick() {
-        document.getElementById("linkedInAnchor").click();
+        if(window.innerWidth > 750) {
+            document.getElementById("linkedInAnchor").click();
+        }
     }
 
     componentDidMount() {

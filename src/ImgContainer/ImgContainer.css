@@ -115,6 +115,10 @@
         transition: none;
     }
 
+    #linkedInAnchor {
+        display: none;
+    }
+
     #imgContainer:hover {
         border-radius: 0px;
     }

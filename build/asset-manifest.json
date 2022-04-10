@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/infosite/static/css/main.42180bf6.css",
+    "main.js": "/infosite/static/js/main.13f9bd71.js",
+    "static/media/dotNetSite.png": "/infosite/static/media/dotNetSite.6ccb2bb7fc7168144cb0.png",
+    "static/media/reactSite.png": "/infosite/static/media/reactSite.30afc100c3605acf68f5.png",
+    "static/media/angularSite.png": "/infosite/static/media/angularSite.db9c3ffcd75bee2070b4.png",
+    "static/media/chatApp.png": "/infosite/static/media/chatApp.2f6c784a49eb3fcdf39c.png",
+    "static/media/side.png": "/infosite/static/media/side.e1449fa7f3a3d8ec891f.png",
+    "static/media/sideinv.png": "/infosite/static/media/sideinv.8b9a499a8afaf334c97f.png",
+    "static/media/vedran_1.jpg": "/infosite/static/media/vedran_1.bf804226d6e2e967af34.jpg",
+    "index.html": "/infosite/index.html",
+    "main.42180bf6.css.map": "/infosite/static/css/main.42180bf6.css.map",
+    "main.13f9bd71.js.map": "/infosite/static/js/main.13f9bd71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42180bf6.css",
+    "static/js/main.13f9bd71.js"
+  ]
+}
