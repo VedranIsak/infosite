@@ -22,13 +22,14 @@
     width: 100%;
 }
 
+.listContainer ul li {
+    width: 90%;
+    margin-left: 5%;
+}
+
 .listContainer ul li h3 {
     text-align: left;
     color: white;
-    min-width: 85%;
-    max-width: 85%;
-    margin-left: 7.5%;
-    margin-right: 7.5%;
 }
 
 .listContainer ul {

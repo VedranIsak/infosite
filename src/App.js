@@ -21,10 +21,10 @@ import React from 'react';
   The site is written with React and I've been learning the framework while developing the site.`];
   const firstHeaders = ['Angular Website', 'ASP.NET Core MVC Website', 'WPF MVVM Chat Application', 'React Website'];
   const firstImgIds = ['angular-img', 'net-image', 'wpf-image', 'react-image'];
-  const firstHrefs = ['https://angular.io/', 'https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0', 
+  const firstHrefs = ['https://www.sqlservertutorial.net/getting-started/what-is-sql-server/', 'https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0', 
   'https://docs.microsoft.com/en-us/archive/msdn-magazine/2009/february/patterns-wpf-apps-with-the-model-view-viewmodel-design-pattern', 
   'https://reactjs.org/'];
-  const firstAnchors = ['Angular', 'ASP.NET Core MVC', 'WPF MVVM', 'SQL Server'];
+  const firstAnchors = ['SQL Server', 'ASP.NET Core MVC', 'WPF MVVM', 'React'];
 
   const secParapraphs = [`During my education I learned quite a bit about commonly used datastructures. 
   Starting with learning the Big O notation I then progressed into learning about sorting algorithms. 
