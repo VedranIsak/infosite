@@ -6,6 +6,7 @@ import SkillsContainer from './SkillsContainer/SkillsContainer';
 import PortContainer from './PortContainer/PortContainer';
 import SideBarContainer from './SideBarContainer/SideBarContainer';
 import GallContainer from './GallContainer/GallContainer';
+import CirclesContainer from './CirclesContainer/CirclesContainer';
 import React from 'react';
 
   const firstParagraphs = [
@@ -36,21 +37,21 @@ import React from 'react';
   and simulated using, daily scrums, sprints etc.`];
   const secHeaders =  ['Datastructures', 'ER modeling', 'OOP', 'Agile work'];
   const secImgIds = ['data-struc-img', 'er-img', 'oop-img', 'agile-img'];
-  const secHrefs = ['https://www.geeksforgeeks.org/data-structures/', 'https://www.geeksforgeeks.org/introduction-of-er-model/', 
+  const secondHrefs = ['https://www.geeksforgeeks.org/data-structures/', 'https://www.geeksforgeeks.org/introduction-of-er-model/', 
   'https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming', 'https://www.agilealliance.org/agile101/'];
-  const secAnchors = ['Datastructures', 'ER modeling', 'OOP', 'Agile work'];
+  const secondAnchors = ['Datastructures', 'ER modeling', 'OOP', 'Agile work'];
 
 function App() {
 
   return (
     <>
       <SideBarContainer />
-      <Header />
       <ImgContainer />
       <ExpContainer />
       <SkillsContainer />
-      <PortContainer id="port-container-1" pTexts={firstParagraphs} hTexts={firstHeaders} imgIds={firstImgIds} hrefs={firstHrefs} aTexts={firstAnchors} circleHeader='Want to learn more about these technologies?' />
-      <PortContainer id="port-container-2" pTexts={secParapraphs} hTexts={secHeaders} imgIds={secImgIds} hrefs={secHrefs} aTexts={secAnchors} circleHeader='Want to learn more about these subjects?' />
+      <CirclesContainer firstAnchorTexts={firstAnchors} firstHrefs={firstHrefs} secondAnchorTexts={secondAnchors} secondHrefs={secondHrefs} />
+      <PortContainer id="port-container-1" pTexts={firstParagraphs} hTexts={firstHeaders} imgIds={firstImgIds} circleHeader='Want to learn more about these technologies?' />
+      <PortContainer id="port-container-2" pTexts={secParapraphs} hTexts={secHeaders} imgIds={secImgIds} circleHeader='Want to learn more about these subjects?' />
       <GallContainer />
     </>
   );

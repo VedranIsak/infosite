@@ -7,14 +7,18 @@
     max-width: 30px;
     min-height: 30px;
     max-height: 30px;
-    border: solid black;
+    border: solid white;
     border-width: 0 4px 4px 0;
     display: inline-block;
     padding: 3px;
     transform: rotate(315deg);
     -webkit-transform: rotate(315deg);  
-    transition: border-width 1s;
+    transition: border-color .5s;
     z-index: 5;
+  }
+
+  #alone-arrow:hover {
+    border-color: rgb(150, 150, 150);
   }
 
   #side-bar-arrow {
@@ -22,12 +26,18 @@
     max-width: 30px;
     min-height: 30px;
     max-height: 30px;
+    margin-left: 20px;
     border-color: white;
+    transition: border-color .5s;
+  }
+
+  #side-bar-arrow:hover {
+    border-color: rgb(150, 150, 150);
   }
 
   @media only screen and (max-width: 1600px) {
     #side-bar-container {
-      width: 11vw;
+      width: 8vw;
     }
   }
 

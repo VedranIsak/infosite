@@ -27,6 +27,10 @@ export default class ImgContainer extends Component {
         }, 15)
     }
 
+    triggerLinkedinClick() {
+        document.getElementById("linkedInAnchor").click();
+    }
+
     componentDidMount() {
         this.hideElements();
     }
@@ -39,7 +43,8 @@ export default class ImgContainer extends Component {
                     <div id="textContainer">
                         <h1>Welcome to my portfolio site!</h1>
                     </div>
-                    <div id="imgContainer">
+                    <div id="imgContainer" onClick={() => { this.triggerLinkedinClick(); }}>
+                        <a id="linkedInAnchor" href="https://www.linkedin.com/in/vedran-isak-3a0a49202/" target="_blank"></a>
                         <h3>Feel free to scroll around</h3>
                         <div></div>
                     </div>

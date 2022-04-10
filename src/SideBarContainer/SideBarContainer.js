@@ -58,6 +58,10 @@ export default class SideBarContainer extends Component {
             document.getElementById("exp-container").scrollIntoView({"behavior": "smooth"});
         else if(traverseHeight === "4")
             document.getElementById("my-work-container").scrollIntoView({"behavior": "smooth"});
+        else if(traverseHeight === "5")
+            document.getElementById("circle-container").scrollIntoView({"behavior": "smooth"});
+        else if(traverseHeight === "6")
+            document.getElementById("imgPageContainer").scrollIntoView({"behavior": "smooth"});
     }
 
     render() {
@@ -65,13 +69,15 @@ export default class SideBarContainer extends Component {
             <>
                 <div className={styles.sideBarContainer} id="side-bar-container">
                     <div className={styles.headerContainer}>
-                        <div><h2 onClick={() => { this.traverseSite("1"); }}>Portfolio</h2></div>
-                        <div><h2 onClick={() => { this.traverseSite("2"); }}>Skills</h2></div>
-                        <div className={styles.arrowContainer}>
-                            <div id="side-bar-arrow" className={styles.arrow} onClick={() => { this.sideBarToggle(); }} ></div>
+                        <div onClick={() => { this.traverseSite("6"); }}><h2>Start</h2></div>
+                        <div onClick={() => { this.traverseSite("3"); }}><h2>Exp & Edu</h2></div>
+                        <div onClick={() => { this.traverseSite("2"); }}><h2>Skills</h2></div>
+                        <div className={styles.arrowContainer} onClick={() => { this.sideBarToggle(); }}>
+                            <div id="side-bar-arrow" className={styles.arrow} ></div>
                         </div>
-                        <div><h2 onClick={() => { this.traverseSite("3"); }}>Exp & Edu</h2></div>
-                        <div><h2 onClick={() => { this.traverseSite("4"); }}>My work</h2></div>
+                        <div onClick={() => { this.traverseSite("5"); }}><h2>Deepdive</h2></div>
+                        <div onClick={() => { this.traverseSite("1"); }}><h2>Portfolio</h2></div>
+                        <div onClick={() => { this.traverseSite("4"); }}><h2>My work</h2></div>                        
                     </div>
                 </div>
                 <div className={styles.arrow} id="alone-arrow" onClick={() => { this.sideBarToggle(); }}></div>

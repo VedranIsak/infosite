@@ -1,55 +1,3 @@
-.first-skill {
-    border-bottom: 25px solid rgba(200, 200, 200, 0.1);
-    border-right: 25px solid rgba(200, 200, 200, 0.1);
-    transition: border-bottom 0.5s, border-right 0.5s;
-    padding-left: 25px;
-    padding-top: 25px;
-}
-
-.first-skill:hover {
-    border-bottom: 2.5px solid rgba(200, 200, 200, 0.1);
-    border-right: 2.5px solid rgba(200, 200, 200, 0.1);
-}
-
-.second-skill {
-    border-bottom: 25px solid rgba(200, 200, 200, 0.1);
-    border-left: 25px solid rgba(200, 200, 200, 0.1);
-    transition: border-bottom 0.5s, border-left 0.5s;
-    padding-right: 25px;
-    padding-top: 25px;
-}
-
-.second-skill:hover {
-    border-bottom: 2.5px solid rgba(200, 200, 200, 0.1);
-    border-left: 2.5px solid rgba(200, 200, 200, 0.1);
-}
-
-.third-skill {
-    border-top: 25px solid rgba(200, 200, 200, 0.1);
-    border-right: 25px solid rgba(200, 200, 200, 0.1);
-    transition: border-top 0.5s, border-right 0.5s;
-    padding-left: 25px;
-    padding-bottom: 25px;
-}
-
-.third-skill:hover {
-    border-top: 2.5px solid rgba(200, 200, 200, 0.1);
-    border-right: 2.5px solid rgba(200, 200, 200, 0.1);
-}
-
-.fourth-skill {
-    border-top: 25px solid rgba(200, 200, 200, 0.1);
-    border-left: 25px solid rgba(200, 200, 200, 0.1);
-    transition: border-top 0.5s, border-left 0.5s;
-    padding-right: 25px;
-    padding-bottom: 25px;
-}
-
-.fourth-skill:hover {
-    border-top: 2.5px solid rgba(200, 200, 200, 0.1);
-    border-left: 2.5px solid rgba(200, 200, 200, 0.1);
-} 
-
 @media only screen and (max-width: 1450px) {
     h2.exp-more-header {
         font-size: 1rem;
@@ -60,25 +8,30 @@
 }
 
 @media only screen and (max-width: 1300px) {
-    div div[data-id='skills-container'] {
-        display: none !important;
-    }
-
     table.port-table {
         width: 90%;
         height: 90%;
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
     table.port-table {
-        background: none;
         height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 0px;
+        border: 1px solid black;
     }
 
-    .port-table tbody tr td div p {
-        color: black;
+    table.port-table tbody tr td div p {
+        color: white;
         font-weight: bold;
+    }
+
+    table.port-table tbody tr td h3 {
+        font-size: 0.85rem;
+        width: 100%;
+        color: white;
     }
 }
 
@@ -114,7 +67,6 @@
     }
 
     table.port-table {
-        background: none;
         width: 90%;
     }     
 }
@@ -129,7 +81,7 @@
     }
 
     .port-table tbody tr td h3 {
-        font-size: 0.55rem;
+        display: none !important
     }
 
     .port-table tbody tr td div p {

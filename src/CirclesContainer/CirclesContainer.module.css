@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@300&display=swap');
+
+.skillsContainer {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    background: rgba(0, 0, 0, 0.2);
+    font-family: 'Anek Devanagari', sans-serif;
+}
+
+.skillsContainer .skillsShowCaseCircle {
+    height: 70vmin;
+    width: 70vmin;
+    border-radius: 100%;
+    overflow: hidden;
+    background: rgba(20, 20, 20, 0.4);
+}
+
+
+.skillsContainer .skillsShowCaseCircle .halfCaseCircle {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.halfCaseCircle div {
+    cursor: pointer;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.halfCaseCircle a {
+    height: 10%;
+    width: 40%;
+    color: white;
+    font-size: 0.85rem;
+}
+

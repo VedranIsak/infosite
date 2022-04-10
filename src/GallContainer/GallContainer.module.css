@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@300&display=swap');
 
 .fullPageContainer {
     height: 100vh;
@@ -7,12 +7,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background: rgba(0, 0, 0, 0.75);
+    font-family: 'Anek Devanagari', sans-serif;
 }
 
 .fullPageContainer h4 {
-    color: black;
+    color: white;
     text-align: center;
-    font-family: 'Montserrat Alternates', cursive, sans-serif;
     margin-bottom: 1%;
 }
 
@@ -58,9 +59,10 @@
 }
 
 .textContainer h4 {
-    color: white;
+    color: blue;
     text-align: center;
     font-family: 'Montserrat Alternates', cursive, sans-serif;
     width: 70%;
     height: auto;
+    text-decoration: underline;
 }

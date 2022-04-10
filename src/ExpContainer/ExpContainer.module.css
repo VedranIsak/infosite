@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@300&display=swap');
 
 .pageContainer {
     position: relative;
@@ -8,28 +8,27 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: 'Montserrat Alternates', cursive, sans-serif;
+    font-family: 'Anek Devanagari', sans-serif;
 }
 
 .pageContainer h2 {
     text-align: center;
-    color: black;
-    text-decoration: underline;
+    color: white;
+    text-shadow: 3px 3px 6px black;
 }
 
 .listContainer {
-    height: 40%;
-    width: 90%;
+    height: 50%;
+    width: 100%;
 }
 
-.listContainer h3 {
-    text-align: center;
+.listContainer ul li h3 {
+    text-align: left;
     color: white;
-    background: rgba(0, 0, 0, 0.75);
-    padding: 1%;
-    width: 90%;
-    margin-left: 5%;
-    border-radius: 10px;
+    min-width: 85%;
+    max-width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
 }
 
 .listContainer ul {
@@ -37,20 +36,8 @@
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
-    box-shadow: 3px 3px 8px black;
-    margin-top: 2.5%;
     list-style-type: none;
-    border-radius: 12.5px;
 }
 
-.listContainer ul:first-of-type {
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-}
-
-.listContainer ul:last-of-type {
-    border-top-right-radius: 0px;
-    border-top-left-radius: 0px;
-}

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@300&display=swap');
 
 #textContainer {
     display: flex;
@@ -10,7 +10,7 @@
     color: white;
     text-shadow: 1px 1px 6px black;
     text-align: center;
-    font-family: 'Montserrat Alternates', cursive, sans-serif;
+    font-family: 'Anek Devanagari', sans-serif;
     padding: 15px;
 }
 
@@ -30,6 +30,7 @@
     align-items: center;
     flex-direction:  column;
     transition: border-radius 1s;
+    cursor: pointer;
 }
 
 #imgContainer:hover {
@@ -40,7 +41,7 @@
     display: none;
     color: white;
     text-shadow: 1px 1px 6px black;
-    font-family: 'Montserrat Alternates', cursive, sans-serif;
+    font-family: 'Anek Devanagari', sans-serif;
     text-align: center;
 }
 

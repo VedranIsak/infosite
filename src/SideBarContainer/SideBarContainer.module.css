@@ -1,12 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@300&display=swap');
 
 .sideBarContainer {
   position: fixed;
-  height: 100vh;
-  width: 7vw;
+  top: .5vh;
+  height: 99vh;
+  width: 8vw;
   left: 0;
   display: none;
   z-index: 15;
+  font-family: 'Anek Devanagari', sans-serif;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 2px 2px 3px black;
+  overflow: hidden;
 }
 
 .headerContainer {
@@ -20,6 +26,7 @@
 }
 
 .headerContainer div {
+  cursor: pointer;
   height: calc(100%/5);
   width: 100%;
   display: flex;
@@ -27,16 +34,15 @@
   align-items: center;
 }
 
+.headerContainer div:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
 .headerContainer div h2 {
   cursor: pointer;
   font-size: 1rem;
   color: white;
-  font-family: 'Montserrat Alternates', cursive, sans-serif;
-}
-
-.headerContainer div h2 a {
-  height: 100%; 
-  width: 100%;
+  text-align: center;
 }
 
 .arrowContainer {

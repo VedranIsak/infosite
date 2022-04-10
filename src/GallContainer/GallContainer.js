@@ -50,7 +50,7 @@ export default class GallContainer extends Component {
             if(element.style.top === '0%') {
                 clearInterval(int);
             }
-        }, 20);
+        }, 15);
     }
 
     slideUp(elementId) {
@@ -63,7 +63,7 @@ export default class GallContainer extends Component {
             if(element.style.top === '-100%') {
                 clearInterval(int);
             }
-        }, 20);
+        }, 15);
     }
 
     getCurrentTextCon(elementId) {
@@ -86,26 +86,26 @@ export default class GallContainer extends Component {
     render() {
         return (
         <div id="my-work-container" className={styles.fullPageContainer}>
-            <h4 id="gallery-help-header">Try pressing on the images =)</h4>
+            <h4 id="gallery-help-header">My work</h4>
             <div id="gallery-container" className={styles.galleryContainer}>
                 <div id="react-website-container" className={styles.imgContainer} onClick={() => { this.slideIn("react-website-text"); }}>
                     <div id="react-website-text" className={styles.textContainer}>
-                        <h4>React Website - written during the spring of 2022</h4>
+                        <h4><a href="https://github.com/VedranIsak/infosite" target="_blank">React Website - written during the spring of 2022</a></h4>
                     </div>
                 </div>
                 <div id="dotnet-website-container" className={styles.imgContainer} onClick={() => { this.slideIn("dotnet-website-text"); }}>
                     <div id="dotnet-website-text" className={styles.textContainer}>
-                        <h4>ASP.NET Core website - written during the fall of 2021</h4>
+                        <h4><a href="https://github.com/VedranIsak/YugoslavWars" target="_blank">ASP.NET Core website - written during the fall of 2021</a></h4>
                     </div>
                 </div>
                 <div id="chat-app-container" className={styles.imgContainer} onClick={() => { this.slideIn("chat-app-text"); }}>
                     <div id="chat-app-text" className={styles.textContainer}>
-                        <h4>Chat application - written during the fall of 2020</h4>
+                        <h4><a href="https://github.com/VedranIsak/.NET-Chat-Application" target="_blank">Chat application - written during the fall of 2020</a></h4>
                     </div>
                 </div>
                 <div id="angular-website-container" className={styles.imgContainer} onClick={() => { this.slideIn("angular-website-text"); }}>
                     <div id="angular-website-text" className={styles.textContainer}>
-                        <h4>Angular website - written during the fall of 2020</h4>
+                        <h4><a href="https://github.com/VedranIsak/Angular-Material-Prototype" target="_blank">Angular website - written during the fall of 2020</a></h4>
                     </div>
                 </div>
             </div>

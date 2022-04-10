@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@300&display=swap');
 
 .pageContainer {
     height: 100vh;
@@ -7,11 +8,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Anek Devanagari', sans-serif;
 }
 
 .slideSwitcherContainer {
     height: 10%;
-    width: 70%;
+    width: 80%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -36,23 +38,22 @@
 .slideSwitcherContainer h2 {
     color: white;
     text-decoration: underline;
-    font-family: 'Orbitron', cursive, sans-serif;
     text-align: center;
     cursor: default;
 }
 
-.slideSwitcherContainer h5 {
+.slideSwitcherContainer div h5 {
     text-align: center;
     padding: 25px;
     color: white;
-    font-family: 'Montserrat Alternates', cursive, sans-serif;
-    font-size: 1rem;
+    text-shadow: 1px 1px 3px black;
+    font-size: 1.5rem;
 }
 
 .semiPageContainer {
     position: relative;
     height: 70%;
-    width: 70%;
+    width: 80%;
     margin-right: 10%;
     margin-left: 10%;
     border-radius: 12.5px 12.5px;
@@ -99,14 +100,12 @@
 .textContainer h2 {
     text-align: center;
     color: white;
-    font-family: 'Montserrat Alternates', cursive, sans-serif;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
 }
 
-.textContainer p {
+.textContainer h3 {
     line-height: 175%;
     text-align: left;
     color: white;
-    font-family: 'Montserrat Alternates', cursive, sans-serif;
 }
